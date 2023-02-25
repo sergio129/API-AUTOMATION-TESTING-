@@ -16,7 +16,7 @@ Feature: Automatizacion de las siguientes Apis CreateBooking, GetBooking, Update
     Given Dato que tengo la reserva: 2694 y escribo los datos para la Actualizacion de la reserva
     Then Resultado del servicio debe ser estatus: 200
 
-  @BuscarPruebas
+  @ListarReservas
   Scenario: Quiero consultar una reserva existente de forma exitosa
-    Given Actualizar reserva : 2694 y deseo consultar los datos
+    Then Actualizar reserva : 1 y deseo consultar los datos
     Then Resultado del servicio debe ser estatus: 200

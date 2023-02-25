@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         glue = "org.TEvolvers.api.StepDefinitions",
         features = "src/test/resources/features/",
         snippets = CucumberOptions.SnippetType.CAMELCASE,
-        tags = "@BuscarPruebas",
+        tags = "@ListarReservas",
         monochrome = true
 
 )

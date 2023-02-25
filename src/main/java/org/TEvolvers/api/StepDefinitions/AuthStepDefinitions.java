@@ -66,7 +66,7 @@ public class AuthStepDefinitions {
     }
 
 
-    @Given("Actualizar reserva : {int} y deseo consultar los datos")
+    @Then("Actualizar reserva : {int} y deseo consultar los datos")
     public void actualizarReservaYDeseoConsultarLosDatos(int arg0) {
         actor.attemptsTo(GetBookingTask.datosGetBooking(arg0));
     }
