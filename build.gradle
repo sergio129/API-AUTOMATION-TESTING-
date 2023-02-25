@@ -38,7 +38,6 @@ dependencies {
             "org.projectlombok:lombok:${LombokVersion}",
             "net.serenity-bdd:serenity-junit:${serenityCoreVersion}",
             "net.serenity-bdd:serenity-screenplay:${serenityCoreVersion}",
-            "net.serenity-bdd:serenity-screenplay-webdriver:${serenityCoreVersion}",
             "junit:junit:${junitVersion}",
             "io.rest-assured:rest-assured:${Assured}"
     implementation "net.serenity-bdd:serenity-ensure:${serenityCoreVersion}",
